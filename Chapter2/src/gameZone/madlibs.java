@@ -23,23 +23,24 @@ public class madlibs {
 		color = input.nextLine();
 		System.out.print("Enter a wordEst >>");
 		wordEst = input.nextLine();
-		System.out.print("Enter a bodyPartPlural");
+		System.out.print("Enter a bodyPartPlural >>");
 		bodyPartPlural = input.nextLine();
-		System.out.print("Enter a anAnimal");
+		System.out.print("Enter a anAnimal >>");
 		anAnimal = input.nextLine();
-		System.out.print("Enter a aNoun");
+		System.out.print("Enter a aNoun >>");
 		aNoun = input.nextLine();
-		System.out.print("Enter a PluralNoun");
+		System.out.print("Enter a PluralNoun >>");
 		PluralNoun = input.nextLine();
-		
+	
 		System.out.print("Enter a number >>");
 		a = input.nextInt();
 		System.out.print("Enter a number >>");
 		b = input.nextInt();
 		
 		c = a - b;
-		
-		System.out.print("The" + color + "Dragon is the." + wordEst +"It has" +  + "");
+		 
+		System.out.print(" The " + color + " Dragon is the " + wordEst + " It has " +  c  + " " +bodyPartPlural + ", and a " + 
+		anAnimal + " shaped like a " + aNoun + ". It loves to eat " + PluralNoun + ", although it will feast on nearly anything.");
 		
 	}
 
