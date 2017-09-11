@@ -7,7 +7,8 @@ public class Intitials {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		JOptionPane.showMessageDialog(null, "");
-	}
+		String result;
+		result = JOptionPane.showInputDialog(null,"What is your initials?");
+		JOptionPane.showMessageDialog(null, "Your initials are, " + result + " ! ");}
 
 }
